@@ -10,7 +10,7 @@ Launch the tutorial host in VirtualBox.
 
 Run the following commands from a terminal window:
 
-    $ sudo mn --custom ~/ryu-mininet-custom/topo_buddy.py -topo mytopo --mac --controller remote --switch ovs
+    $ sudo mn --custom ~/ryu-mininet-custom/topo_1sw-2host.py -topo mytopo --mac --controller remote --switch ovs
 
 Open a second terminal window and run the following commands:
 
